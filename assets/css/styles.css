@@ -837,7 +837,7 @@ color:var(--text-color-light);
 }
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-@media screen and (max-width:350px){
+@media screen and (max-width:500px){
   
   .container{
     margin-left: var(--mb-1);
@@ -905,6 +905,7 @@ color:var(--text-color-light);
     grid-template-columns: .6fr;
     justify-content: center;
   }
+  
 }
 
 @media screen and (min-width:768px){
@@ -945,6 +946,7 @@ color:var(--text-color-light);
     column-gap: 2rem;
   }
   .nav_menu{
+    display: contents;
     margin-left: auto;
   }
   .change-theme{
